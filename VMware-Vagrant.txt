@@ -1,0 +1,5 @@
+To install VMware and Vagrant I had to use the GUI installers.
+
+VMware: http://www.vmware.com/products/workstation/workstation-evaluation
+
+
