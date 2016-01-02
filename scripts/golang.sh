@@ -1,14 +1,4 @@
 #!/bin/sh
-echo -e "GOROOT and GOPATH configured in .bashrc"
-echo -e "lets test the installation...\n"
-cd $GOPATH
-echo -e "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tfmt.Print(\"hello, go\\\n\")\n}" >> hello.go
-go run hello.go
-
-
-
-
-#!/bin/sh
 OLDGO="$HOME/go1.4"
 GOSRC="$HOME/go"
 WORKSPACE="$HOME/goworkspace"
